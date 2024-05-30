@@ -19,7 +19,7 @@ const Home = ({ allPostsData }) => {
         </section>
 
         <section className="text-xl leading-normal pt-4">
-          <h2 className=" text-2xl my-4 font-bold">Blog</h2>
+          <h2 className=" text-2xl my-4 font-bold">车型</h2>
           <ul>
             {allPostsData.map(({ id, date, title }) => (
               <li key={id} className="mb-5">
