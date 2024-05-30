@@ -14,7 +14,6 @@ const Home = ({ allPostsData }) => {
         </Head>
 
         <section className="text-xl leading-normal text-center">
-          {/* <p>你好，我是 Ethan</p> */}
           <p>本田系列产品</p>
         </section>
 
