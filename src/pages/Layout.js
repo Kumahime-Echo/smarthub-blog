@@ -25,14 +25,14 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/cbr650r.jpg"
+              src="/images/logo.jpg"
               className="rounded-full"
               height={144}
               width={144}
               alt={name}
             />
             <h1 className="text-5xl font-extrabold tracking-tighter my-4">
-              {name}
+              {/* {name} */}
             </h1>
           </>
         ) : (
@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
             <Link legacyBehavior href="/">
               <Image
                 priority
-                src="/images/cbr650r.jpg"
+                src="/images/logo.jpg"
                 className="rounded-full"
                 height={108}
                 width={108}
@@ -48,9 +48,9 @@ export default function Layout({ children, home }) {
               />
             </Link>
             <h2 className="text-2xl my-4">
-              <Link legacyBehavior href="/">
+              {/* <Link legacyBehavior href="/">
                 {name}
-              </Link>
+              </Link> */}
             </h2>
           </>
         )}
